@@ -1,0 +1,91 @@
+.content{
+    display:flex;
+    justify-content:space-between
+}
+.content .leftSide{
+    width: 32%;
+}
+.content .leftSide img{
+    width: 100%;
+    
+}
+.content .rightSide{
+    width: 65%;
+}
+.content .rightSide h1{
+    color:#fff;
+}
+.content .rightSide h2{
+    color:#949cb0;
+    font-size: 25px;
+
+}
+.content .rightSide .classifications{
+    margin-top: 40px;
+    margin-left: -15px;
+}
+.content .rightSide .classifications span{
+    margin-left: 15px;
+    
+    background-color:#24baef ;
+    padding: 5px;
+    color:#fff
+}
+.content .rightSide .details {
+    margin-top: 40px;
+}
+.content .rightSide .details p{
+    margin-top: 10px;
+    color:#fff;
+}
+.content .rightSide h3{
+    color:#949cb0;
+    margin-top: 50px;
+    font-size:22px
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
