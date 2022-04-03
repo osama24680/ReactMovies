@@ -8,7 +8,7 @@ export default function Home() {
   const [trendMovies, setTrendMovies] = useState([])
   const [trendTvshows, setTrendTvshows] = useState([])
   // const [trendingPerson, setPerson] = useState([])
-  const [loading, setLoading] = useState(false);
+  // const [loading, setLoading] = useState(false);
 
 
 
@@ -17,11 +17,11 @@ export default function Home() {
     let { data } = await axios.get(`https://api.themoviedb.org/3/trending/${mediaType}/day?api_key=b9bdb09fc05c6f78ab2de960f7cc874e`)
     callback(data.results)
     console.log(data.results)
-    if (data.results.length <= 0) {
-      setLoading(false)
-    } else {
-      setLoading(true)
-    }
+    // if (data.results.length <= 0) {
+    //   setLoading(false)
+    // } else {
+    //   setLoading(true)
+    // }
     console.log(data.results.length)
   }
   useEffect(() => {

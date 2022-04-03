@@ -1,7 +1,6 @@
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
-import img from "../../assets/img.jpg"
 import style from "./MovieDetails.module.css"
 
 export default function MovieDetails() {
@@ -17,7 +16,7 @@ export default function MovieDetails() {
     useEffect(() => {
         getMovieDetails()
 
-    }, []);
+    });
     return (
         <div className="container ">
         
